@@ -32,6 +32,7 @@ function Page() {
         <div className="hero-section">
           <img src="./images/header.avif"></img>
         </div>
+
         <div className="hero-intro-container">
           <div className="hero-intro-base-container">
             <h1>
@@ -54,9 +55,35 @@ function Page() {
             <img src="./Images/photo-2.jpg"></img>
           </div>
           <div className="card-image-b">
-          {/* <img src="./Images/photo-1.jpg"></img> */}
+            <img src="./Images/photo-1.jpg"></img>
           </div>
         </div>
+      </div>
+
+      <div className="hero-intro-container">
+        <div className="hero-intro-base-container">
+          <h1>
+            Making music isn’t easy. It takes time, effort, and learning. But
+            <br></br> when you’re in the flow, it’s incredibly rewarding.
+          </h1>
+          <p>
+            We feel the same way about making Ableton products. The driving
+            force behind Ableton is our<br></br> passion for what we make, and
+            the people we make it for.
+          </p>
+        </div>
+      </div>
+      <div className="video-container">
+        <iframe
+          width="770"
+          height="500"
+          src="https://www.youtube.com/embed/9SbnhgjeyXA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>Why Ableton - Juanpe Bolivar</p>
       </div>
     </div>
   );
