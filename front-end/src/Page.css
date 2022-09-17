@@ -1,18 +1,16 @@
-
-
 .header-container {
     background-color: #fff;
     align-items: center;
 }
 
-.header-left > p {
+.header-left>p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
     line-height: 1.5;
-font-weight: 600;
+    font-weight: 600;
 }
 
-.header-left > img {
+.header-left>img {
     height: 32px;
 }
 
@@ -152,17 +150,186 @@ font-weight: 600;
 }
 
 .video-container {
-    position: absolute;
-    width: 70vw;
-    left: 15vw;
+    position: relative;
+    width: 50vw;
+    left: 25vw;
     margin-top: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.video-container p {
+    text-align: left;
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-intro-container-two {
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.video-container p {
+.image-container-two {
+    position: relative;
+    top: 13vh;
+    width: 57vw;
+    height: 65vw;
+    background-color: #B6FFC0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13vh;
+}
+
+.base-div-two {
+    position: absolute;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8vw;
+}
+
+.vertical-img-div {
+    display: flex;
+    flex-direction: row;
+}
+
+#image-one,
+#image-two {
+    width: 76%;
+    height: auto;
+}
+
+.base-div-two :last-child {
+    position: absolute;
+    height: 70vh;
+    top: 17vh;
+    left: 50vw;
+}
+
+#image-three {
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    left: 40vw;
+}
+
+#makers-id {
+    width: 80vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-top: 13vh;
+}
+
+.main-box-div {
+    margin-top: 13vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+}
+
+.box-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.left-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-image img {
+    width: 33vw;
+    margin-left: 9vw;
+    height: auto;
+
+}
+
+.right-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-image img {
+    width: 41vw;
+    margin-left: 12vw;
+    height: auto;
+}
+
+.background-box-div {
+    top: 0px;
+    position: absolute;
+    width: 66vw;
+    height: 100%;
+    background-color: #D5B3FF;
+}
+
+.jobs-div {
+    margin-top: 13vh;
+    width: 80vw;
+    height: 80vh;
+    background-color: #b1c5ff;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.jobs-image-div {
+    height: 100%;
+    width: 100%;
+    background-color: #FF764D;
+}
+
+
+#jobs-image {
+    width: 100%;
+    height: 100%;
+}
+
+.jobs-button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centering-div p {
     text-align: left;
-} 
+    font-size: 1.575rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
 
+.centering-div :last-child {
+color: blue;
+}
 
+.jobs-gap-div {
+    height: 16vh;
+    width: 100%;
+}
