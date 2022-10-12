@@ -194,18 +194,85 @@ function Page() {
         </div>
         <div className="jobs-button-div">
           <div className="centering-div">
-          <p>
-            We’re really proud of the work<br></br> we’ve done so far. But
-            there’s so<br></br> much more to come. If you’d like<br></br> to be
-            a part of it, please join us.
-          </p>
-          <p>See latest jobs ></p>
+            <p>
+              We’re really proud of the work<br></br> we’ve done so far. But
+              there’s so<br></br> much more to come. If you’d like<br></br> to
+              be a part of it, please join us.
+            </p>
+            <p>See latest jobs</p>
           </div>
         </div>
       </div>
-      <div className="jobs-gap-div">
-      </div>
+      <div className="jobs-gap-div"></div>
       <hr></hr>
+      <div className="footer-div">
+        <div className="logo-footer">
+          <h1>Ableton</h1>
+        </div>
+        <div className="footer-links-one">
+          <div className="footer-left-zone zone-common">
+            <p>Register Live or Push</p>
+            <p>About Ableton</p>
+            <p>Jobs</p>
+            <div className="social-icons">
+              <img src="./Images/facebook.png"></img>
+              <img src="./Images/twitter.png"></img>
+              <img src="./Images/youtube.png"></img>
+              <img src="./Images/instagram.png"></img>
+            </div>
+          </div>
+          <div className="footer-middle-zone zone-common">
+            <p>Education</p>
+            <p>Offers for students and teachers</p>
+            <p>Ableton for the Classroom</p>
+            <p>Ableton for Colleges and Universities</p>
+          </div>
+          <div className="footer-right-zone zone-common">
+            <p>Sign up to our newsletter</p>
+            <p id="align-left">
+              Enter your email address to stay up to date with the latest
+              offers,<br></br> tutorials, downloads, surveys and more.
+            </p>
+            <div className="email-input">
+              <input type="text" placeholder="Email Address" className="email-address"></input>
+              <div className="signup-btn">Sign Up</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-links-two">
+          <div className="footer-left-zone zone-common">
+            <p>Community</p>
+            <p>Find Ableton User Groups</p>
+            <p>Find Certified Training</p>
+            <p>Become a Certified Trainer</p>
+          </div>
+          <div className="footer-middle-zone zone-common">
+            <p>Distributors</p>
+            <p>Find Distributors</p>
+            <p>Try Push in-store</p>
+          </div>
+          <div className="footer-right-zone zone-common">
+            <p>Language and Location</p>
+            <div className="dropdowns">
+            <select>
+              <option>English</option>
+              <option>Swedish</option>
+              <option>Marathi</option>
+            </select>
+            <select>
+              <option>India</option>
+              <option>Germany</option>
+              <option>Ghana</option>
+            </select>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-links-bottom">
+
+        </div>
+      </div>
     </div>
   );
 }
