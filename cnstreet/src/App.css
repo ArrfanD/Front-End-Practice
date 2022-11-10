@@ -1,0 +1,53 @@
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  position: relative;
+}
+
+.main, .food, .retail, .community {
+  position: absolute;
+  height: 100vh;
+}
+
+.main {
+  width: 100vw;
+  background-color: whitesmoke;
+  z-index: 0;
+}
+
+.food {
+  width: 95vw;
+  left: 85vw;
+  background-color: #8080ff;
+  
+}
+
+.foodShift {
+  width: 95vw;
+  left: 0vw;
+  background-color: #8080ff;
+  z-index: 1;
+}
+
+.retail {
+  width: 90vw;
+  left: 90vw;
+  background-color: #ff0000;
+}
+
+.community {
+  width: 85vw;
+  left: 95vw;
+  background-color: #ffa31a;
+}
