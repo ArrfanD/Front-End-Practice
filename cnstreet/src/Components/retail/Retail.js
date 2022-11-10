@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Retail() {
+function Retail({setRetail}) {
   return (
-    <div>Retail</div>
+    <div onClick={()=> setRetail(true)}>Retail</div>
   )
 }
 

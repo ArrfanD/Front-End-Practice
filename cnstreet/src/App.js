@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./App.css";
 import Community from "./Components/community/Community";
 import Food from "./Components/food/Food";
@@ -10,11 +10,18 @@ function App() {
   let [food, setFood] = React.useState(false);
   let [retail, setRetail] = React.useState(false);
   let [community, setCommunity] = React.useState(false);
-  console.log("app food boolean: ",food)
+useEffect(()=>{
+  if (food === true) {
+    setMain(false)
+    setRetail(false)
+    setCommunity(false)
+  }
+},[food]) 
 
+console.log("main:--",main)
   return (
     <div className="App">
-      <div className="main">
+      <div className={main ? "main" : "mainShift"}>
         <Main setMain={setMain}/>
       </div>
       <div className={food ? "foodShift" : "food"}>
