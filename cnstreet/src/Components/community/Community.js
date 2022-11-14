@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Community() {
+function Community({setSection}) {
   return (
-    <div>Community</div>
+    <div onClick={()=> setSection("community")}>Community</div>
   )
 }
 

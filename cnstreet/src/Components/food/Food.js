@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Food({setFood}) {
+function Food({setSection}) {
   return (
-    <div onClick={()=> setFood(true)}>Food</div>
+    <div onClick={()=> setSection("food")}>Food</div>
   )
 }
 

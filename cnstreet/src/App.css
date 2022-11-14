@@ -12,37 +12,37 @@
 }
 
 .App {
-  position: relative;
   display: flex;
+  flex-direction: row;
 }
 
 .main, .food, .retail, .community {
-  /* position: absolute; */
   height: 100vh;
 }
 
 .main {
-  width: 100vw;
+  width: 85vw;
   background-color: whitesmoke;
+  height: 100vh;
+
 }
 
 .mainShift {
   width: 5vw;
   background-color: whitesmoke;
+  height: 100vh;
 
 }
 
 .food {
   width: 5vw;
-  left: 85vw;
   background-color: #8080ff;
-  
+  height: 100vh;
+
 }
 
 .foodShift {
-  /* position: absolute; */
-  width: 95vw;
-  /* left: 5vw; */
+  width: 85vw;
   background-color: #8080ff;
   height: 100vh;
 
@@ -50,20 +50,25 @@
 
 .retail {
   width: 5vw;
-  /* left: 90vw; */
   background-color: #ff0000;
+  height: 100vh;
 }
 
 .retailShift {
-  /* position: absolute; */
-  width: 90vw;
-  /* left: 10vw; */
+  width: 85vw;
   background-color: #ff0000;
   height: 100vh;
 }
 
 .community {
   width: 5vw;
-  /* left: 95vw; */
   background-color: #ffa31a;
+  height: 100vh;
 }
+
+.communityShift {
+  width: 85vw;
+  background-color: #ffa31a;
+  height: 100vh;
+}
+

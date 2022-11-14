@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Main() {
+function Main({setSection}) {
   return (
-    <div>Main</div>
+    <div onClick={()=> setSection("main")}>Main</div>
   )
 }
 
