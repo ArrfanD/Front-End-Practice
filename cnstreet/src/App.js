@@ -36,11 +36,6 @@ function App() {
     }
   });
 
-  console.log("main :- ",main)
-  console.log("food :- ",food)
-  console.log("retail :- ",retail)
-  console.log("community :- ",community)
-
   return (
     <div className="App">
       <div className={main ? "main" : "mainShift"}>
